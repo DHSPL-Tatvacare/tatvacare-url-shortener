@@ -130,7 +130,7 @@ const Header: FC = () => {
           >
             <Li>
               <ALink
-                href="//github.com/thedevs-network/kutt"
+                href="https://github.com/DHSPL-Tatvacare/tatvacare-url-shortener"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="GitHub"

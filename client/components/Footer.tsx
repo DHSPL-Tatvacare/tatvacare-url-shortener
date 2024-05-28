@@ -26,13 +26,8 @@ const Footer: FC = () => {
     >
       {!isAuthenticated && <ReCaptcha />}
       <Text fontSize={[12, 13]} py={2}>
-        Made with love by{" "}
-        <ALink href="//thedevs.network/" title="The Devs" target="_blank">
-          The Devs
-        </ALink>
-        .{" | "}
         <ALink
-          href="https://github.com/thedevs-network/kutt"
+          href="https://github.com/DHSPL-Tatvacare/tatvacare-url-shortener"
           title="GitHub"
           target="_blank"
         >
