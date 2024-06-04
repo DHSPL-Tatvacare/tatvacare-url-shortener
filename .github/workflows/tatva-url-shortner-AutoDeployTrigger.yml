@@ -39,7 +39,7 @@ jobs:
           registryUsername: ${{ secrets.TATVAURLSHORTNER_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.TATVAURLSHORTNER_REGISTRY_PASSWORD }}
           containerAppName: tatva-url-shortner-new
-          resourceGroup: tatva-prod
+          resourceGroup: tatva-uat
           imageToBuild: mytatvaprodcr.azurecr.io/tatva-url-shortner:${{ github.sha }}
           _buildArgumentsKey_: |
             _buildArgumentsValues_
