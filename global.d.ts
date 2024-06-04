@@ -102,6 +102,7 @@ interface LinkSanitized {
   user_id?: undefined;
   uuid?: undefined;
   visit_count: number;
+  short_url?: string;
 }
 
 interface LinkJoinedDomain extends Link {
