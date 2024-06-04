@@ -162,7 +162,7 @@ export const sanitize = {
     id: link.uuid,
     password: !!link.password,
     link: generateShortLink(link.address, link.domain),
-    short_url: `${env.SHORT_DOMAIN}/r/${link.uuid}`,
+    short_url: `https://${env.SHORT_DOMAIN}/r/${link.address}`,
   })
 };
 

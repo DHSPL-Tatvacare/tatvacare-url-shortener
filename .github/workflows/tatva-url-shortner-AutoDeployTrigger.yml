@@ -8,7 +8,7 @@ on:
       [ main ]
     paths:
     - '**'
-    - '.github/workflows/tatva-url-shortner-AutoDeployTrigger-d909e968-1b9d-416b-af95-caa31a2ba4e7.yml'
+    - '.github/workflows/tatva-url-shortner-AutoDeployTrigger.yml'
 
   # Allow manual trigger 
   workflow_dispatch:      
@@ -38,7 +38,7 @@ jobs:
           registryUrl: mytatvaprodcr.azurecr.io
           registryUsername: ${{ secrets.TATVAURLSHORTNER_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.TATVAURLSHORTNER_REGISTRY_PASSWORD }}
-          containerAppName: tatva-url-shortner
+          containerAppName: tatva-url-shortner-new
           resourceGroup: tatva-prod
           imageToBuild: mytatvaprodcr.azurecr.io/tatva-url-shortner:${{ github.sha }}
           _buildArgumentsKey_: |
